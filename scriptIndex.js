@@ -11,6 +11,8 @@ var connect = bodymovin.loadAnimation({
     }
 })
 
+var text = document.getElementById("texts");
+
 // var connecting = bodymovin.loadAnimation({
 //     container: logo, // Required
 //     path: 'dataAni.json', // Required
@@ -25,10 +27,12 @@ var connect = bodymovin.loadAnimation({
 
 logo.addEventListener("mouseenter", function () {
 connect.playSegments([0, 31], true);
+text.innerHTML = "and Click :)";
 });
 
 logo.addEventListener("mouseleave", function () {
 connect.stop();
+text.innerHTML = "↑ Connect the dots.";
 });
 
 
