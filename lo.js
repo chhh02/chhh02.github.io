@@ -2,7 +2,7 @@
 var logo = document.getElementById("logo");
 var animation = bodymovin.loadAnimation({
     container: logo, // Required
-    path: 'data.json', // Required
+    path: 'dataIn.json', // Required
     renderer: 'svg', // Required
     loop: false, // Optional
     autoplay: true, // Optional

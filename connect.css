@@ -1,0 +1,73 @@
+*{padding:0; margin:0;}
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#frame{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #3F454A;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h2{
+    font-size: 45pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    text-anchor: middle;
+    float: left;
+    padding: 0px;
+}
+#c1{
+    margin: 0 0 0 200px;
+}
+#c2{
+    float: right;
+    margin: 0 200px 0 0;
+}
+.connect {
+    border: 1px solid green;
+    width: 360px;
+    height: 60px;
+    position: relative;
+    /* margin: auto; */
+}
+
+#mainText {
+    border: 1px solid red;
+    width: 100%;
+    height: 100px;
+    margin: 500px 0 0 0;
+    z-index: 10px;
+    
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 1px dashed white;
+}
+/* ---- particles.js container ---- */
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #3F454A;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+  }
+  
