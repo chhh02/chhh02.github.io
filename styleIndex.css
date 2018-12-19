@@ -51,11 +51,6 @@ h2{
     
 }
 
-.circle {
-    width: 15px;
-    height: 15px;
-    border: 1px dashed white;
-}
 /* ---- particles.js container ---- */
 
 #particles-js{
@@ -70,4 +65,12 @@ h2{
     /* top: 0;
     left: 0; */
   }
-  
+
+#logo{
+    z-index: 9999px;
+    /* border: 1px dashed white; */
+    width: 65%;
+    position: relative;
+    top: 40%;
+    left: 17.5%;
+}
