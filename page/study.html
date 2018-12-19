@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  type="text/css" href="./style.css"/>
+        <script src="./script.js"></script>
+        <title>Connect | Study</title>
+    </head>
+
+    <body onload="drawLine('jsL3', 100, 120); drawDot('dot3', 2.5); box();">
+            <!-- 메뉴 -->
+            <nav class="line-ani">
+                    <canvas id="whiteBox" width="20" height="230"></canvas>
+                <div id="nav-title">
+                    <p>
+                    <a href="about.html">Chae-Young Lee</a>
+                    </p>
+                </div>
+                <ul>
+                    <li class="menu"><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li class="menu"><a href="study.html">STUDY</a></li>
+                    <canvas id="dot3" class="menuDots" width="5" height=""></canvas>
+                    <canvas id="jsL3" class="jsline" width="300" height="5"></canvas>
+                    <li id="copyright">Copyright 2018. <br> Chae-young Lee, All rights reserved.</li>
+                </ul>
+            </nav>
+            <!-- 화면 -->
+            <div id="frame" width="1440">
+                <header>
+                    <div class="Title">
+                        <h1 class="headerTitle" width="200">Design</h1>
+                        <div class="split-line1"></div>
+                        <h1 class="headerTitle" width="160">Challenge</h1>
+                    </div>
+                </header>
+                <div id="content-study" class="content">
+                    <div id="thumS" class="bodyBox">
+                        <div class="studythum"><img src="images/study/blob.gif" class="imgst" width="800"/>
+                        </div>
+                        <div class="studythum">
+                        <img src="images/study/wish.gif" class="imgst" width="800"/>
+                        </div>
+                        <div class="studythum">
+                        <img src="images/study/wave.gif" class="imgst" width="800"/>
+                        </div>
+                        <div class="studythum"></div>
+                        <div class="studythum"></div>
+                    </div>
+
+    
+                </div>
+            </div>
+            <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+            <script src="../../jquery.canvasjs.min.js">
+        </body>
+</html>

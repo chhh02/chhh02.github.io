@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  type="text/css" href="./style.css"/>
+        <script src="./script.js"></script>
+        <title>Connect | Portfolio</title>
+    </head>
+
+    <body onload="drawLine('jsL2', 150, 160); drawDot('dot2', 2.5); box();">
+            <!-- 메뉴 -->
+            <nav class="line-ani">
+                    <canvas id="whiteBox" width="20" height="230"></canvas>
+                <div id="nav-title">
+                    <p>
+                    <a href="about.html">Chae-Young Lee</a>
+                    </p>
+                </div>
+                <ul>
+                    <li class="menu"><a href="portfolio.html">PORTFOLIO</a></li>
+                    <canvas id="dot2" class="menuDots" width="5" height="5"></canvas>
+                   <canvas id="jsL2" class="jsline" width="300" height="5"></canvas>
+                    <li class="menu"><a href="study.html">STUDY</a></li>
+                    <li id="copyright">Copyright 2018. <br> Chae-young Lee, All rights reserved.</li>
+                </ul>
+            </nav>
+            <!-- 화면 -->
+            <div id="frame" width="1440">
+                <header>
+                    <div class="Title">
+                        <h1 class="headerTitle" width="40">My</h1>
+                        <div class="split-line1"></div>
+                        <h1 class="headerTitle" width="200">Work</h1>
+                    </div>
+                </header>
+                <div id="content-portfolio" class="content">
+                    <div id="thum" class="bodyBox">
+                        <div class="pfThum">
+                            <div class="imgP">
+                                <a href="plow.html">
+                                <img src="images/plowPreview.png" class="imgs" width="800"/></a>
+                            </div>
+                            <div class="imgText" width="160">
+                                <h3 class="subTitle">Plow</h3>
+                                <br>
+                                <h5 class="explain">Mobile App</h5>
+                            </div>
+                            
+                      </div>
+                      <div class="pfThum">
+                            <div class="imgP">
+                                <a href="popcon.html">
+                                <img src="images/popcon.png" class="imgs" width="800"/></a>
+                            </div>
+                            <div class="imgText" width="160">
+                                <h3 class="subTitle">Popcon</h3>
+                                <br>
+                                <h5 class="explain">Infographic</h5>
+                            </div>
+                            
+                      </div>
+                      <div class="pfThum">
+                            <div class="imgP">
+                                <a href="planter.html">
+                                <img src="images/planter.png" class="imgs" width="800"/></a>
+                            </div>
+                            <div class="imgText" width="160">
+                                <h3 class="subTitle">Planter</h3>
+                                <br>
+                                <h5 class="explain">Mobile App</h5>
+                            </div>
+                            
+                      </div>
+                      <div class="pfThum">
+                            <div class="imgP">
+                                <a href="die.html">
+                                <img src="images/theReasonDie.png" class="imgs" width="800"/></a>
+                            </div>
+                            <div class="imgText" width="160">
+                                <h3 class="subTitle">The reason </br> why you Die</h3>
+                                <br>
+                                <h5 class="explain">Infographic</h5>
+                            </div>
+                            
+                      </div>
+                    </div>
+    
+                </div>
+            </div>
+            <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+            <script src="../../jquery.canvasjs.min.js">
+        </body>
+</html>
