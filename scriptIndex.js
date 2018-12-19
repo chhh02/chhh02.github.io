@@ -35,7 +35,7 @@ connect.stop();
 logo.addEventListener("click", function () {
   connect.playSegments([33, 100], true);
   setTimeout(function(){
-    location.href="page/about.html"}, 3000); 
+    location.href="page/about.html"}, 2500); 
 });
 
 
