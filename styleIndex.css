@@ -64,9 +64,9 @@ h2{
 
 #texts{
     position: relative;
-    width: 200px;
+    /* width: 200px; */
     top: 30px;
-    left: 38%;
+    /* left: 35%; */
     text-align: center;
 }
 

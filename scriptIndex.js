@@ -34,13 +34,25 @@ connect.stop();
 
 logo.addEventListener("click", function () {
   connect.playSegments([33, 100], true);
-  
+  setTimeout(function(){
+    location.href="page/about.html"}, 3000); 
 });
 
+
+
+
+// location.href="page/about.html"
+// setTimeout(function(){
+//   location.href="page/about.html"}, 70);
 // var animation = bodymovin.loadAnimation({
 //     container: document.getElementById('bm'),
 //     renderer: 'svg',
 //     loop: true,
-//     autoplay: true,
+//     autoplay: true, go('about.html');
 //     path: 'dataLine.json'
 //   })connecting.hideOnTransparent();
+
+
+// function.go(link){
+//   location.replace(link);
+// }
