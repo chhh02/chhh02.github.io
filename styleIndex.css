@@ -1,6 +1,7 @@
 *{padding:0; margin:0;}
 
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -28,7 +29,7 @@ body{
 
 h2{
     font-size: 45pt;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 
     text-align: center;
     text-anchor: middle;
