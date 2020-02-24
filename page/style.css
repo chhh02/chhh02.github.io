@@ -1,6 +1,7 @@
 *{padding:0; margin:0;}
 
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -21,7 +22,7 @@ nav {
     height: 101%;
     background-color: #F7F7F7;
     font-size: 12pt;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans','Montserrat', sans-serif;
     font-weight: 600;
     color: #3F454A;
     text-align: left;
@@ -56,7 +57,7 @@ li {
 }
 
 #copyright{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans','Roboto', sans-serif;
     font-weight: 200;
     font-size: 9pt;
     position: absolute;
@@ -138,7 +139,7 @@ header  {
 }
 /* 타이틀폰트 */
 h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans','Roboto', sans-serif;
     font-weight: 100;
     font-size: 30pt;   
     text-align: left;
@@ -148,7 +149,7 @@ h1{
 }
 /* 본문텍스트 */
 h5{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans','Roboto', sans-serif;
     font-weight: 300;
     font-size: 12pt;
     padding: 10px;
@@ -156,7 +157,7 @@ h5{
 }
 /* 소제목 */
 h3{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans','Roboto', sans-serif;
     font-weight: 300;
     font-size: 14pt;  
     text-align: left;
@@ -166,7 +167,7 @@ h3{
 }
 .outside{
     text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans','Roboto', sans-serif;
     font-weight: 400;
     font-size: 14pt;  
     text-align: left;
