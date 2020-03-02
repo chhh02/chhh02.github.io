@@ -108,11 +108,39 @@ header  {
     margin: 60px 0 0 350px;
     /* border: 1px solid red; */
 }
+#personal{
+    width: 100%;
+    margin: 50px 0 0 0;
+    float: left;
+}
+.chaText{
+    font-weight: 400;
+/*    border: 2px solid #404040;*/
+    margin: 10px 0 0 0;
+}
+.ptext{
+    width: 280px;
+/*    text-align: left;*/
+    float: left;
+    margin: -10px 0 0 0;
+}
 
+#fasticon, #newicon, #emicon{
+    width: 60px;
+    float: right;
+    margin: 0 30px 0 0;
+/*    border: 2px solid red;*/
+    
+}
+.inst{
+    float: left;
+    width: 320px;
+    margin: 0px 0 80px 0;
+}
 #aboutText{
     /* border: 1px solid blue; */
     width: 60%;
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 550px;
     height: 100px;
     float: left;
@@ -184,6 +212,16 @@ h3{
 
 .imgst{
     border: 1px solid #DBDBDB;
+}
+.line-p{
+    width: 280px;
+    height: 1px;
+    border-top: 1px solid #404040;
+    float: left;
+    position: relative;
+    top: 23px;
+    margin: -22px 0 36px 10px;
+    opacity: .7;
 }
 .split-line1{
     width: 50px;
