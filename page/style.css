@@ -457,18 +457,33 @@ canvas {
 /* .imgs :hover{
     background-color: #181818;
 } */
+#nextButt1, #nextButt2{
+/*    margin: 0 0 50px 0;*/
+/*    border: 1px solid red; */
+    float: left;
+    text-align: left;
+    width: 26px;
+    position: relative;
+    top: 18px;
+}
 
 .next{
-    /* border: 1px solid #7E858F; */
-    position: relative;
+    border: 1px solid black; 
+/*    position: relative;*/
     /* top: 40px; */
-    right: -930px;
-    bottom: 40px;
-    width: 4%;
+/*    right: -930px;*/
+/*    bottom: 40px;*/
+/*    width: 3%;*/
     height: 50px;
     margin: 0 0 50px 0;
 }
 
+#blank20{
+    float: left;
+    border: 1px solid #F7F7F7;
+/*    margin: 100px 0;*/
+    height: 8rem;
+}
 .prev{
     /* border: 1px solid #7E858F; */
     position: relative;
